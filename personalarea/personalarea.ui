@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PersonalArea</class>
+ <widget class="QMainWindow" name="PersonalArea">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Панель управления</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="PB_USERS">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пользователи</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="L_NAME">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Панель управления</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_ARCHIV">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>70</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Архив</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_ADDBORCODS">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>110</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить штрих-коды</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_ADDDOCUMENTS">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>150</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить документы</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_INDEXING">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Индексирование</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
